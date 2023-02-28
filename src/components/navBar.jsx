@@ -2,9 +2,12 @@ import React from 'react'
 
 function navBar() {
   return (
-    <div className='nav-bar'>
-      <h1>This is nav</h1>
-    </div>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" className="checkbtn" >
+        <i className="fas fa-bars"></i>
+      </label>
+    </nav>
   )
 }
 
