@@ -1,10 +1,10 @@
 import React from 'react'
-import companyRow from './companyRow'
+import CompanyRow from './companyRow'
 
 function companyList() {
   return (
     <div>
-        <companyRow />
+        <CompanyRow />
       {/* Implmenting Dynamically List of company with no. of articles  */}
     </div>
   )

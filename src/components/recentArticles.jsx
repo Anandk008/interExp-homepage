@@ -1,10 +1,10 @@
 import React from 'react'
-import articleCard from './articleCard'
+import ArticleCard from './articleCard'
 
 function recentArticles() {
   return (
     <div>
-      <articleCard />
+      <ArticleCard />
     </div>
   )
 }
