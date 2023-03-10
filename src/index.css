@@ -79,7 +79,7 @@ a.active,a:hover{
   }
   ul{
     position: fixed;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     background: #2c3e50;
     top: 80px;
@@ -236,4 +236,28 @@ a.active,a:hover{
   filter: blur(10px);
   box-shadow: 0 0 10px #323232, 0 0 20px hsl(176.61, 42.28%, 40.7%) 19.6%,
     0 0 30px #323232, 0 0 40px hsl(176.61, 42.28%, 40.7%) 19.6%;
+}
+
+
+
+.intro {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  height: 50vh;
+  background-color: #17C3B2;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.recentA {
+  right: 0;
+  width: 60%;
+  height: auto;
+}
+.cList {
+  left: 0;
+  width: 30%;
+  height: auto;
 }

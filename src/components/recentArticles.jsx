@@ -3,7 +3,7 @@ import ArticleCard from './articleCard'
 
 function recentArticles() {
   return (
-    <div>
+    <div className="recentA">
       <ArticleCard />
     </div>
   )

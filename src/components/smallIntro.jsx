@@ -4,7 +4,7 @@ function smallIntro() {
   return (
     <div>
       {/* Static intro with images and some test */}
-      <h1>This is small intro</h1>
+      <h1 className="intro" >This is small intro</h1>
     </div>
   )
 }
