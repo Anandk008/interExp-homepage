@@ -1,7 +1,6 @@
 import NavBar from "./components/NavBar.jsx";
 import SmallIntro from "./components/smallIntro";
-import CompanyList from "./components/companyList";
-import RecentArticle from "./components/recentArticles";
+import ListArticle from "./components/ListArticle";
 import Footer from "./components/footer";
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
     <>
       <NavBar />
       <SmallIntro />
-      <CompanyList />
-      <RecentArticle />
+      <ListArticle />
       <Footer />
     </>
   );

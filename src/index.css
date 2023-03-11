@@ -106,8 +106,8 @@ a.active,a:hover{
 
 .card {
   position: relative;
-  width: 220px;
-  height: 320px;
+  width: 13rem;
+  height: 20rem;
   background: mediumturquoise;
   display: flex;
   align-items: center;
@@ -116,6 +116,7 @@ a.active,a:hover{
   font-weight: bold;
   border-radius: 15px;
   cursor: pointer;
+  margin: 5% ;
 }
 
 .card::before,
@@ -154,7 +155,7 @@ a.active,a:hover{
 }
 
 .card:hover:after {
-  content: "HELLO";
+  content: "See Article";
 }
 
 .cube-loader {
@@ -245,19 +246,36 @@ a.active,a:hover{
   width: 90%;
   margin: auto;
   margin-top: 2%;
+  margin-bottom: 5%;
   height: 50vh;
   background-color: #17C3B2;
   border-radius: 30px;
   padding: 20px;
 }
 
+.main-data {
+  margin-top: 50px;
+  display: grid;
+  grid-template-areas:
+    "cList recentA recentA" ;
+  margin: auto;
+  gap: 5%;
+  background-color: pink;
+}
 .recentA {
-  right: 0;
-  width: 60%;
+  grid-area: recentA;
+  background-color: #d102ff;
   height: auto;
+  display: flex;
+  flex-direction: row;
 }
 .cList {
-  left: 0;
-  width: 30%;
+  grid-area: cList;
+  display: flex-box;
+  width: 250px;
+  background-color: peachpuff;
+  border-radius: 25px;
+  margin: 4% 4% 4% 4%;
+  padding: 50px;
   height: auto;
 }
